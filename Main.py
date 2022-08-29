@@ -10,23 +10,23 @@ class DoublyCircularLinkedList:
         self.head = None
         self.count = 0
 
-    def add_at_tail(self, data) -> bool:
+    def add_at_tail(self, data, value) -> bool:
         # Write code here
         if (start == NULL):
             new_node = Node(0)
-            new_node.data = data
+            new_node.data = value
             new_node.next = new_node.previous = new_node
             start = new_node
             return
         
         last =(start).previous
-        
         new_node.next = start
         (start).previous = new_node
         last.next = new_node
         
     def add_at_head(self, data) -> bool:
         # Write code here
+        
 
     def add_at_index(self, index, data) -> bool:
         # Write code here
