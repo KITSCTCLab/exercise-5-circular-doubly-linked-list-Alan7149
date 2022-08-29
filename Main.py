@@ -13,8 +13,8 @@ class DoublyCircularLinkedList:
 
     def add_at_tail(self, data) -> bool:
         # Write code here
-         new = Node(data)
-        if self.count == 0
+        new = Node(data)
+        if self.count == 0:
             self.tail = new
             self.head = new
         else:
